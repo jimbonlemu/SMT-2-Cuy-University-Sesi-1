@@ -1,0 +1,114 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Vollkorn SC', serif; */
+}
+
+:root {
+    --bg-primary-GUCCI: #2B0E0B;
+    --bg-secondary-GUCCI: #FF0004;
+    --bg-option-1-GUCCI: #013C40;
+    --bg-option-2-GUCCI: #C6082C;
+    --bg-option-3-GUCCI: #C3911E;
+
+    --bg-primary-LouisVuitton: #362b18;
+    --bg-secondary-LouisVuitton: #9f8453;
+    --bg-option-1-LouisVuitton: #423723;
+    --bg-option-2-LouisVuitton: #bda476;
+    --bg-option-3-LouisVuitton: #aaaaaa;
+
+    --bg-primary-Rolex: #a37e2c;
+    --bg-secondary-Rolex: #006039;
+
+    --bg-primary-Chanel: #3e3e3e;
+    --bg-secondary-Chanel: #a3837a;
+    --bg-option-1-Chanel: #ffa49e;
+    --bg-option-2-Chanel: #ff8686;
+    --bg-option-3-Chanel: #ff6e6e;
+
+    --bg-primary-Lamborghini: #F7DE9F;
+    --bg-secondary-Lamborgini: #F9CE5C;
+    --bg-option-1-Lamborghini: #D8A016;
+    --bg-option-2-Lamborghini: #9F6B08;
+    --bg-option-3-Lamborghini: #040404;
+    --bg-option-4-Lamborghini: #282928;
+
+    --bg-primary-AstonMartin: #1e2925;
+    --bg-secondary-AstonMartin: #3d524b;
+    --bg-option-1-AstonMartin: #416269;
+    --bg-option-2-AstonMartin: #5f8586;
+    --bg-option-3-AstonMartin: #5f8586;
+
+
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-option-1-GUCCI);
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+
+    border: 1px solid var(--bg-option-2-Lamborghini);
+    background-color: var(--bg-primary-GUCCI);
+    color: #C3911E;
+    padding: 32px;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(	195	,145	,30, 0.5)
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icons{
+    margin-top: 8px;
+    font-size: 24px;
+    color: var(--bg-secondary-Rolex);
+}
+
+.title{
+    font-size: 2em;
+}
+
+.desciption{
+    margin-top: 8px;
+    font-size: .5em;
+}
+
+.btn{
+    margin-top: 16px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    background-color: var(--bg-secondary-Lamborgini);
+    
+}
+.btn:hover{
+    background-color: var(--bg-secondary-GUCCI);
+    color: var(--bg-option-1-GUCCI);
+    transform: rotateY(10deg);
+    -webkit-transform: rotateY(10deg);
+    -moz-transform: rotateY(10deg);
+    -ms-transform: rotateY(10deg);
+    -o-transform: rotateY(10deg);
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+}
