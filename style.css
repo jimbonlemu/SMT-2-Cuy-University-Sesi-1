@@ -47,20 +47,21 @@
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     background-color: var(--bg-option-1-GUCCI);
-
 }
 
 .wrapper {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    height: auto;
+    align-items: center;
 }
 
 .card {
-
+    width: 40%;
     border: 1px solid var(--bg-option-2-Lamborghini);
     background-color: var(--bg-primary-GUCCI);
     color: #C3911E;
@@ -112,3 +113,50 @@
     -ms-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
 }
+
+.container2{
+    display: none;
+}
+@media screen and (max-width: 476px){
+
+    .container2{
+        display: none;
+    }
+    .container{
+        background-color: white;
+    }
+    .card{
+        width: 95%;
+    }
+
+    .title{
+        font-size: 3em;
+    }
+
+    .desciption{
+        font-size: .5em;
+    }
+
+    .btn{
+        padding: 16px;
+        font-size: 1.5em;
+    }
+
+    .icons{
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+    .container{
+        display: none;
+    }
+    .container2{
+        display: block;
+    }
+    
+}
+
+
+
